@@ -1,0 +1,36 @@
+html{
+    background-color: lightgray;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.marca{
+    text-align: center;   
+    margin-top: -.7rem; 
+}
+
+.logo{
+    font-family: 'Peralta', cursive;
+    font-size: 40px;
+    margin-bottom: -.5rem;
+}
+
+.logo_txt{
+    font-family: 'Peralta', cursive;
+}
+
+.menu{
+    margin: .2rem .2rem 0 0;
+}
+
+.bar{
+    background: black;
+    height: .3rem;
+    width: 3rem;
+
+    margin-bottom:.3rem;
+}

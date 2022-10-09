@@ -1,0 +1,31 @@
+#recuperar_senha {
+    background: darkslateblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 8rem;
+
+    margin-top: 2rem;
+}
+
+.cadastrar{
+    margin-top: 1rem;
+}
+
+button[disabled]{
+    opacity: .5;
+}
+
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    margin: 4rem 0 0 .5rem;
+}
+
+.erro{
+    color: white;
+    background: red;
+    display: none;
+}

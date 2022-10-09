@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Style-->
+   <link rel="stylesheet" href="log_style.css">
+   <link rel="stylesheet" href="/global/global.css">
+<!--Fontes-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Peralta&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+   
+
+    <title>Denuncie! Login</title>
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">D!</div>
+        <div class="logo_txt">Denuncie!</div>
+    </header> 
+ 
+    <!--===Form Entrar===-->
+ 
+    <main id="caixao">
+
+        <div class="email">
+            <label class="label" for="e-mail">E-mail:</label>
+            <input class="box" id="email" type="email" 
+            onchange="onChangeEmail()" placeholder="E-mail">
+            <div class="erro" id="sem_email" >Email é Obrigatório</div>
+            <div class="erro" id="email_invalido" >Email é inválido</div>
+        </div>
+
+        <div class="senha">
+            <label class="label" for="senha">Senha:</label>
+            <input class="box" id="senha" type="password" 
+            onchange="onChangeSenha()" placeholder="Senha">
+        <div class="erro" id="sem_senha">Senha é Obrigatória</div>
+        </div>
+
+        <div class="cadastrar">
+            <p> <a href="http://127.0.0.1:5500/cadastro/cadastro.html">Clique aqui</a>
+                 para se cadastar</p>
+        </div>
+
+        <div class="recuperar">
+            <button type="button" class="solid" 
+            id="recuperar_senha" disabled="true">Recuperar Senha</button>
+        </div>
+
+        <div class="botao">
+            <button id="logar" disabled="true" 
+            type="button" onclick="login()">Entrar!</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Make By NatanaelJPS</p>
+    </footer>
+    
+    <!--Project-->
+   
+    <script src="log_main.js"></script>
+    <script src="/global/validacao.js"></script>
+
+    
+
+ <!--FireBase-->
+ >
+    
+</body>
+
+</html>

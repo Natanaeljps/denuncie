@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+    background-color: lightgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #header{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    margin-top: 5rem;
+
+}
+
+.logo{
+    font-family: 'Peralta', cursive;
+    font-size: 100px;
+    grid-column: 1;
+
+    text-align: center;
+}
+
+.logo_txt{
+    font-family: 'Peralta', cursive;
+    font-size: 30px;
+    grid-column: 1;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+/*===Form Cadastro===*/
+
+#caixao{
+    display: grid;
+    justify-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#caixas{
+    display: grid;
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+.label{
+    font-size: 18px;
+
+    position: absolute;
+}
+
+.senha{
+    margin-top: 2rem;
+}
+
+
+.box{
+    height: 3rem;
+    width: 15rem;
+
+    border-radius: 1rem;
+    padding-left: .5rem;
+    margin-top: 2rem;
+}
+
+.botao{
+    margin-top: 2rem;
+}
+
+.botao button{
+    height: 3rem;
+    width: 8rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: darkslateblue;
+
+    font-family: 'Roboto', sans-serif;
+}
+.botao button:hover{
+    background: lightslategray;
+}
